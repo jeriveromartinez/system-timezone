@@ -1,5 +1,5 @@
 {
-  "name": "system-timezone",
+  "name": "unix-system-timezone",
   "version": "1.0.0",
   "description": "A node.js package to return this host's timezone",
   "license": "MIT",
