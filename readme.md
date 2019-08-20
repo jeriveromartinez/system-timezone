@@ -1,9 +1,9 @@
 # System Timezone
-[![Build Status](https://travis-ci.org/evantahler/system-timezone.svg)](https://travis-ci.org/evantahler/system-timezone)
+[![Build Status](https://travis-ci.org/jeriveromartinez/system-timezone.svg?branch=master)](https://travis-ci.org/jeriveromartinez/system-timezone)
 
 A simple package that checks various system configuration files in an attempt to determine what *this* computer's timezone is (in Olson notation).  
 
-This is a 100% javasctipt package that should work on any version of `node > 0.10.0`.
+This is a 100% javasctipt package that should work on any version of `node > 8.0.0`.
 
 We do this via 4 methods:
 
@@ -19,11 +19,5 @@ var system_timezone = require('system-timezone');
 
 // This is a slow, sync call.  It would be best to call it once at boot and cache the response
 // If a timezone cannot be determined, an Error will be thrown.
-var thisTimezone = system_timezone();
-
-console.log( thisTimezone ); // America/Los_Angeles
+console.log( system_timezone() ); // America/Los_Angeles
 ```
-
-## TODO:
-- can we test this without messing up system time?
-- can we get this to work on windows?
