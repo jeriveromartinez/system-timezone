@@ -1,5 +1,5 @@
 # System Timezone
-[![Build Status](https://travis-ci.org/jeriveromartinez/system-timezone.svg?branch=master)](https://travis-ci.org/jeriveromartinez/system-timezone)
+[![Build Status](https://travis-ci.org/jeriveromartinez/unix-system-timezone.svg?branch=master)](https://travis-ci.org/jeriveromartinez/unix-system-timezone)
 
 A simple package that checks various system configuration files in an attempt to determine what *this* computer's timezone is (in Olson notation).  
 
