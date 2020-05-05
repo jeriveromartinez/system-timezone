@@ -14,6 +14,8 @@ const trimFile = function (string) {
     string = string.toString();
     string = string.replace(/\r/g, '');
     string = string.replace(/\n/g, '');
+    string = string.replace(/\t/g, '');
+    string = string.replace(/\./g, '');
     return string;
 };
 
